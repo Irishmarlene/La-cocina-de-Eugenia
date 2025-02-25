@@ -1,0 +1,496 @@
+/*Font Google- Monserrat*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Birthstone&display=swap');
+  
+header {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(255, 218, 185);
+    width: 100%;
+    height:10%;
+    padding-bottom: 10px;
+    position:fixed;
+    top: 1px;
+}
+ul { 
+    font-weight: bold;
+    font-size: large;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    border: 10px inline rgb(255, 255, 255);
+    border-radius: 10px;
+    border-style: double;
+    padding: 5px 10px 5px 10px;
+    margin-right: 15px ;
+}
+li { 
+    margin: 0px 20px 0px 20px;
+}
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover /*cuando el mouse pasa por encima*/ {
+    font-size: 1.5em;
+}
+.cards a:hover {
+    font-size: 1.5em;
+}
+.logo img {
+    width: 120px;
+    height: 75px;
+    overflow-clip-margin: content-box;
+    overflow:auto;
+    object-fit: fill;
+    text-align: left;
+}
+
+.nombre h1 {
+    padding-top: 5%;
+    margin-bottom: 0%;
+    font-size: 6rem;
+    font-weight:bold;
+    text-align: center;
+    font-family: "Birthstone", cursive;
+    }
+.nombre h2 {
+    text-align: center;
+    margin-top: 0%;
+    margin-bottom: 5%;
+    font-size: 1.5rem;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    }
+
+.nosotros {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    background-color: rgba(250, 203, 176, 0.916);
+    border: 10px inline rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+.quienesSomos h2 {
+    font-size: 25px;
+    font-weight: bold;
+    margin: 4px 4px 4px 4px;
+    text-align: center;
+    font-family: sans-serif;
+    font-style: italic;
+}
+.quienesSomos p {
+    font-size: 20px;
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    margin: 5px 5px 5px 5px;
+}
+.contacto {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10px 20px 10px;
+    background-color: rgba(250, 203, 176, 0.916);
+    border: 10px inline rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 15px;
+}
+
+.cardTitle { 
+    font-size: 25px;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    border: 2.5px solid lightcoral;
+    margin: 35px 35px 35px 35px;
+    background-color: rgb(233, 233, 233);
+}
+.cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.cards div {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px 10px 10px 10px;
+    margin: 10px 10px 10px 10px;
+}
+.cards p {
+    padding: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+}
+
+.cards img {
+    width: 100%;
+    height: 85%;
+    border: 4px outset lightcoral;
+    
+} 
+.cards a {
+    padding: 15px;
+    background-color: pink;
+    border-radius: 50%;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+footer {
+    background-color: rgba(255, 218, 185, 0.908);
+    color: gray;
+    font-weight: bold;
+    text-align: center;
+    padding: 1em;
+}
+
+footer ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    border: none;
+    align-items: center;
+    justify-content: center;
+    vertical-align: baseline;
+}
+footer img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin: 5px 5px 5px 5px;
+}
+
+.nombreTortas {
+    font-size: 25px;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+}
+.banner img {
+    width: 100%;
+    padding: none;
+    margin: none;
+}
+
+.opcionesTortas {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px 10px 20px 10px;
+    background-color: rgba(250, 203, 176, 0.916);
+    border: 10px inline rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 15px;
+}
+.opcionesTortas img {
+    width: 60%;
+    height: 90%;
+    border: 4px outset lightcoral;
+    justify-content: space-around;
+    align-items: center;
+    margin: 15%;
+}
+.opcionesTortas p {
+    font-size: 1.5rem;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    text-align: center;
+    margin: 5px 5px 5px 5px;
+}
+
+.boxesTitle {
+    font-size: 25px;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    border: 2.5px solid lightcoral;
+    margin: 35px 35px 35px 35px;
+    background-color: rgb(233, 233, 233);
+}
+
+.boxesGrid {
+    display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 20px;
+  grid-template-areas:
+    "1 2"
+    "3 4"
+    "5 5";
+    justify-items: center;
+    align-items: center;
+    justify-content: space-between;
+    align-content: space-between;
+    row-gap: 45px;
+    background-color: whitesmoke;
+}
+
+.box1 {
+    grid-area: 1;
+    width: 100%;
+    height: 80%;
+    margin: 5px;
+    padding: 5px;
+}
+.box2 {
+    grid-area: 2;
+    width: 100%;
+    height: 80%;
+    margin: 5px;
+    padding: 5px;
+}
+.box3 {
+    grid-area: 3;
+    width: 100%;
+    height: 80%;
+    margin: 45px;
+    padding: 5px;
+}
+.box4 {
+    grid-area: 4;
+    width: 100%;
+    height: 80%;
+    margin: 5px;
+    padding: 5px;
+}
+.box5 {
+    grid-area: 5;
+    width: 95%;
+    height: 80%;
+    margin: 5px;
+    padding: 5px;
+}
+.boxesGrid article {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 10px 10px 10px;
+    margin: 10px 10px 10px 10px;
+    background-color: rgba(250, 203, 176, 0.916);
+    border: 10px inline rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-size: 30px;
+    font-weight: bold;
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+}
+.nombre img {
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    height: 25%;
+    object-fit: cover;
+    border-radius: 100px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.redes {
+    font-weight: bold;
+    font-size: large;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style: none;
+    text-align: center;
+    padding: 5px 10px 5px 10px;
+    background-color: rgba(250, 203, 176, 0.916);
+    border-radius: 50px;
+}
+.redes ul {
+    border: none;
+    font-size: 20px;
+}
+.losEsperamos p {
+    font-size: 45px;
+    text-align: center;
+    font-family: "Birthstone", cursive;
+    font-weight: bolder;
+    margin: 35px 35px 35px 35px;
+    padding: 20px;
+}
+/*pseudo elemento para P*/
+p::first-letter {
+    font-size: 2em;
+    color: lightcoral;
+    font-weight: bold;
+}
+
+
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        position: relative;
+    }
+    .logo img {
+        width: 80px;
+        height: 60px;
+    }
+    ul {
+        flex-direction: column;  
+    }
+    .quienesSomos {
+        flex-direction: column;
+        margin: 10px 10px 10px 10px;
+        padding: 5px 5px 5px 5px;
+    }
+    .cardTitle {
+        flex-direction: column;
+        margin: 10px 10px 10px 10px;
+    }
+    .cards {
+        flex-direction: column;
+        align-items: center;
+    }
+    .cards div {
+        width: 80%;
+    }
+    footer ul {
+        flex-direction: column;
+    }
+
+}
+
+
+   /* .cards {
+        flex-direction: column;
+    }
+    .cards div {
+        width: 80%;
+    }
+    .cards img {
+        width: 100%;
+        height: 100%;
+    }
+    .cards p {
+        font-size: 1rem;
+    }
+    .cards a {
+        font-size: 1.5rem;
+    }
+}
+
+/*img {
+    border: 2px solid blue;
+}*/
+
+
+
+
+/*
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* estilo básico 
+body {
+    font-family: "Montserrat", sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    box-sizing: border-box;
+    background-color: rgba(255, 218, 185, 0.908);
+    color: white;
+    text-align: right;
+    padding: 1em;
+}
+header img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    float: left;
+}
+header ul{
+    display: inline-block;
+    list-style: none;
+}
+
+
+h1 {
+    font-size: 38px;
+    font-weight:bold;
+    text-align: center;
+}
+h1 + p {
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+main section {
+    margin: 1em;
+    padding: 1em;
+    background-color: rgb(241, 240, 240);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 1em;
+    text-align: center;
+}
+
+section { 
+    margin: 10%;
+    color: #333;
+    text-align: center;
+}
+
+article img {
+    width: 30%;
+    height: 30%;
+    object-fit:contain;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+
+article p {
+    font-size: 18px;
+    text-align: center;
+    margin: 3px;
+}
+
+article {
+    font-weight: bold;
+    margin: 1em;
+    padding: 1em;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
+}
+
+
+footer {
+    background-color: rgba(255, 218, 185, 0.908);
+    color: gray;
+    text-align: center;
+    padding: 1em;
+}
+
+footer ul {
+    display: inline-block;
+    list-style: none;
+}
+*/
