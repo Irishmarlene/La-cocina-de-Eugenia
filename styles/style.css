@@ -20,7 +20,7 @@ ul {
     display: flex;
     flex-direction: row;
     list-style: none;
-    border: 10px inline rgb(255, 255, 255);
+    border: 10px inline #F2AB91;
     border-radius: 10px;
     padding: 5px 10px 5px 10px;
     margin-right: 15px;
@@ -37,12 +37,6 @@ li {
 a {
     color: black;
     text-decoration: none;
-}
-.justifyContent-end {
-    justify-content: flex-end
-}
-.justifyContent-right {
-    justify-content: right;
 }
 
 a:hover /*cuando el mouse pasa por encima*/ {
@@ -81,9 +75,9 @@ a:hover /*cuando el mouse pasa por encima*/ {
     justify-content: space-around;
     align-items: center;
     padding: 10px;
-    background-color: rgba(250, 203, 176, 0.916);
-    border: 10px inline rgb(255, 255, 255);
-    border-radius: 10px;
+    background-color: #F2AB91;
+    border: 10px inline #9B574E;
+    border-radius: 15px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     margin-bottom: 20px;
 }
@@ -92,7 +86,7 @@ a:hover /*cuando el mouse pasa por encima*/ {
     font-weight: bold;
     margin: 4px 4px 4px 4px;
     text-align: center;
-    font-family: sans-serif;
+    font-family: "Monserrat", sans-serif;
     font-style: italic;
 }
 .quienesSomos p {
@@ -107,9 +101,9 @@ a:hover /*cuando el mouse pasa por encima*/ {
     justify-content: space-between;
     align-items: center;
     padding: 10px 10px 20px 10px;
-    background-color: rgba(250, 203, 176, 0.916);
-    border: 10px inline rgb(255, 255, 255);
-    border-radius: 10px;
+    background-color: #F2AB91;
+    border: 10px inline #9B574E;
+    border-radius: 15px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     margin-bottom: 15px;
 }
@@ -118,8 +112,8 @@ a:hover /*cuando el mouse pasa por encima*/ {
     font-size: 25px;
     text-align: center;
     font-family: "Montserrat", sans-serif;
-    font-style: normal;
-    border: 2.5px solid lightcoral;
+    font-style: bold;
+    border: 2.5px solid #9B574E;
     margin: 35px 35px 35px 35px;
     background-color: rgb(233, 233, 233);
 }
@@ -139,19 +133,19 @@ a:hover /*cuando el mouse pasa por encima*/ {
 }
 .cards p {
     padding: 15px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Moserrat", sans-serif;
     font-size: 1.5rem;
 }
 
 .cards img {
     width: 100%;
     height: 85%;
-    border: 4px outset lightcoral;
+    border: 4px outset #F2AB91;
     
 } 
 .cards a {
     padding: 15px;
-    background-color: pink;
+    background-color: #F2AB91;
     border-radius: 50%;
     font-size: 2rem;
     font-weight: bold;
@@ -229,6 +223,11 @@ footer img {
     border: 2.5px solid lightcoral;
     margin: 35px 35px 35px 35px;
     background-color: rgb(233, 233, 233);
+}
+.boxesTitle img {
+    width: 90%;
+    height:35%;
+    border: 4px;
 }
 
 .boxesGrid {
@@ -337,11 +336,11 @@ footer img {
 /*pseudo elemento para P*/
 p::first-letter {
     font-size: 2em;
-    color: lightcoral;
+    color: #9B574E;
     font-weight: bold;
 }
 
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
     header {
         flex-direction: column;
         position: relative;
@@ -373,7 +372,7 @@ p::first-letter {
         flex-direction: column;
     }
 
-}
+} */
 
 
 
