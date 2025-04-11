@@ -14,29 +14,30 @@ a:hover /*cuando el mouse pasa por encima*/ {
     background-color: $FondoCartelContacto;
     border-radius: 30%;
 }
+
 .quieneSomos {
     font-family: $FuenteGeneral;
     font-size: 1.5rem;
     text-align: justify;
     margin: 2% 2% 2% 2%;
+    padding: 3% 3% 3% 3%;
     color: $ColorTexto;
     line-height: 1.5;
     background-color: $FondoCartelContacto;
 }
-.quieneSomos p {
+.nosotros p,
+.contacto1 p {
     @extend .quieneSomos;
     padding: 5px 5px 5px 5px;
     border: 2cm 2cm 2cm 2cm;
     text-align: center;
+    margin: 5% 5% 5% 5%;
 }
-.nosotros {
+.contacto1 {
     margin: 2%;
     padding: 2px 8px;
 }
-.contacto {
-    margin: 2%;
-    padding: 0px 8px 25px 8px;
-}
+
 .cardTitle { 
     font-size: 25px;
     text-align: center;
@@ -144,16 +145,4 @@ footer img {
         box-shadow: 0 0 10px $BoxShadow;
         border-radius: 10px;
         padding: 2%;
-    }
-    .quienesSomos {
-        font-family: $FuenteGeneral;
-        font-size: 1.5rem;
-        text-align: justify;
-        margin: 2% 2% 2% 2%;
-        color: $ColorTexto;
-        line-height: 1.5;
-        background-color: $FondoCartelContacto;
-        box-shadow: 0 0 10px $BoxShadow;
-        border-radius: 10px;
-        
     }
