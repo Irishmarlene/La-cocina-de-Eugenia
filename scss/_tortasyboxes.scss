@@ -1,0 +1,137 @@
+.banner {
+    width: 100%;
+    height: 20cm;
+    display: block;
+}
+.boxesTitle p {
+font-family: $FuenteGeneral;
+font-size: 1.5rem;
+text-align: center;
+margin: 2% 2% 2% 2%;
+color: $ColorTexto;
+}
+
+
+.boxesGrid {
+    @include grid(2,3,20px);
+    grid-template-areas:
+    "1 2"
+    "3 4"
+    "5 5";
+    justify-items: center;
+    align-items: center;
+    justify-content: space-between;
+    align-content: space-between;
+    background-color: $ColorFirstLetter;
+    padding: 30px 30px 30px 30px;
+    margin: 10px 10px 10px 10px;
+    @media (max-width: 768px) {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        grid-template-areas:
+          "box1"
+          "box2"
+          "box3"
+          "box4"
+          "box5";
+    }
+}
+.box1 {
+grid-area: 1;
+width: 100%;
+height: 80%;
+margin: 5px;
+padding: 5px;
+}
+.box2 {
+grid-area: 2;
+@extend .box1;
+}
+.box3 {
+grid-area: 3;
+@extend .box1;
+}
+.box4 {
+grid-area: 4;
+@extend .box1;
+}
+.box5 {
+grid-area: 5;
+@extend .box1;
+}
+.boxesGrid article {
+padding: 10px 10px 10px 10px;
+margin: 2% 2% 2% 2%;
+line-height: 3;
+background-color: $ColorFondo;
+border: 10px inline $ColorFirstLetter;
+border-radius: 10px;
+box-shadow: 0 0 10px $FondoCartelContacto;
+font-size: 1.5rem;
+font-weight: bolder;
+font-style: oblique;
+font-family: $FuenteGeneral;
+text-align: center;
+color: $ColorFirstLetter;
+@media (max-width: 768px) {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-template-areas:
+      "box1"
+      "box2"
+      "box3"
+      "box4"
+      "box5";
+}
+}
+
+.bannerTorta {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 2%;
+    @media (max-width: 768px) {
+        flex-direction: column;
+        padding: 4%;
+        gap: 15px;
+      }
+}
+.opcionesTortas {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px 10px 10px 10px;
+    background-color: $ColorFondo;
+    border: 10px inline $ColorFirstLetter;
+    border-radius: 10px;
+    box-shadow: 10px $ColorFondo;
+    margin-bottom: 15px;
+    @media (max-width: 768px) {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 15px;
+        gap: 20px;
+    }
+}
+.opcionesTortas img {
+    width: 80%;
+    height: 90%;
+    border: 5px outset $ColorFirstLetter;
+    justify-content: space-around;
+    align-items: center;
+    margin: 5% 5% 5% 5%;
+}
+.opcionesTortas p {
+    font-size: 1.5rem;
+    font-family: $FuenteGeneral;
+    color: $ColorFirstLetter;
+    text-align: center;
+    margin: 5px 5px 5px 5px;
+}
+.opcionesTortas article {
+    background-color: $ColorFondo;
+}

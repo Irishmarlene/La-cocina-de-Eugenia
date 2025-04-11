@@ -1,0 +1,77 @@
+.nombre img {
+    display: block;
+    margin: 10px auto;
+    width: 200px;
+    height: 200px;
+    border-radius: 50px;
+}
+.textoQuienesSomos {
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 20px 20px 20px;
+    margin: 25px 30px 40px 30px;
+    justify-content: center;
+    align-items: center;
+    background-color: $ColorFondo;
+    box-shadow: 0 0 10px $FondoCartelContacto;
+    & p::first-letter {
+        font-size: 2em;
+        color: $ColorFirstLetter;
+        font-weight: bold;
+    }
+}
+.imagenLocal {
+    display: block;
+    margin: 10px auto;
+    width: 500px;
+    height: 500px;
+    border-radius: 10px;
+}
+.quienesSomos h2 {
+    font-family: $FuenteH2;
+    padding: 20px 0 0 0;
+}
+.contacto {
+    @extend .textoQuienesSomos;
+    margin: 25px 30px 40px 30px;
+    padding: 20px 20px 20px 20px;
+    background-color: $FondoCartelContacto;
+}
+.redes ul {
+    display: flex;
+    flex-direction: column;
+    list-style-type: disc;
+    list-style: none;
+    color: $ColorTexto;
+    text-decoration: none;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 20px;
+    margin: 20px;
+}
+.redes a {
+    text-decoration: none;
+    color: $ColorFondo;
+    font-family: $FuenteGeneral;
+    font-size: 1em;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px 10px 10px 10px;
+    box-shadow: 0 0 10px $BoxShadow;
+    border-radius: 25px;
+    background-color: $ColorFirstLetter;
+    transition: all 0.3s ease-in-out;
+    &:hover {
+        background-color: $ColorFirstLetter;
+        color: $ColorTexto;
+        transform: scale(1.05);
+    }
+}
+.logoContacto {
+    display: block;
+    margin: 10px auto;
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+}

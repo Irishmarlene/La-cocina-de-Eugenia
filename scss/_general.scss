@@ -1,0 +1,159 @@
+header {
+    background-color: $ColorPinkHeader;
+    color: $ColorFondo;
+    box-shadow: 0 0 10px $BoxShadow;
+    padding: 15px 5px 0 5px;
+    text-align: center;
+    font-family: $FuenteH2;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+a:hover /*cuando el mouse pasa por encima*/ {
+    font-size: 1.5em;
+    background-color: $FondoCartelContacto;
+    border-radius: 30%;
+}
+.quieneSomos {
+    font-family: $FuenteGeneral;
+    font-size: 1.5rem;
+    text-align: justify;
+    margin: 2% 2% 2% 2%;
+    color: $ColorTexto;
+    line-height: 1.5;
+    background-color: $FondoCartelContacto;
+}
+.quieneSomos p {
+    @extend .quieneSomos;
+    padding: 5px 5px 5px 5px;
+    border: 2cm 2cm 2cm 2cm;
+    text-align: center;
+}
+.nosotros {
+    margin: 2%;
+    padding: 2px 8px;
+}
+.contacto {
+    margin: 2%;
+    padding: 0px 8px 25px 8px;
+}
+.cardTitle { 
+    font-size: 25px;
+    text-align: center;
+    font-family: $FuenteH2;
+    font-style: bold;
+    border: 2.5px solid $ColorFirstLetter;
+    margin: 35px 35px 35px 35px;
+    background-color: $ColorFondo;
+}
+.cards {
+    display: flex;
+    justify-content: space-evenly;
+}
+.cards div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px 10px 10px 10px;
+    margin: 25px 10px 25px 10px;
+}
+.cards a {
+    text-decoration: none;
+    color: $ColorFirstLetter;
+    font-family: $FuenteH2;
+    font-size: 1.3em;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px 10px 10px 10px;
+    box-shadow: 0 0 10px $BoxShadow;
+    border-radius: 10px;
+    background-color: $ColorFondo;
+    transition: all 0.3s ease-in-out;
+    &:hover {
+        background-color: $ColorFirstLetter;
+        color: $ColorTexto;
+        transform: scale(1.05);
+    }
+}
+
+.footer {
+    @extend header;
+    display: flex;
+    flex-direction: column;
+    justify-content: justify-content;
+    font-family: $FuenteGeneral;
+    text-align: center;
+    font-size: 1em;
+    padding: 10px 0;
+    color: $ColorTexto;
+}
+
+footer ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    border: none;
+    align-items: center;
+    justify-content: center;
+    vertical-align: baseline;
+}
+footer img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin: 5px 5px 5px 5px;
+}
+.nombre h1 {
+    font-family: $FuenteH1;
+    font-style: cursive;
+    font-weight: bold;
+    font-size: 7rem;
+    text-shadow: 1px 1px 2px;
+    padding-top: 2%;
+    margin-bottom: 0%;
+    text-align: center;
+    color: $ColorFirstLetter;
+    }
+.nombre h2 {
+        font-family: $FuenteH2;
+        font-size: 3rem;
+        text-align: center;
+        margin-top: 0%;
+        margin-bottom: 0%;
+        color: $ColorTexto;
+    }
+ h2 {
+        font-family: $FuenteH2;
+        font-size: 3rem;
+        text-align: center;
+        margin-top: 5%;
+        margin-bottom: 0%;
+        color: $ColorTexto;
+    }
+    
+    .cards p {
+        font-family: $FuenteGeneral;
+        font-size: 1.5rem;
+        text-align: justify;
+        margin: 2% 2% 2% 2%;
+        color: $ColorTexto;
+        padding: 0 10%;
+        line-height: 1.5;
+        background-color: $FondoCartelContacto;
+        box-shadow: 0 0 10px $BoxShadow;
+        border-radius: 10px;
+        padding: 2%;
+    }
+    .quienesSomos {
+        font-family: $FuenteGeneral;
+        font-size: 1.5rem;
+        text-align: justify;
+        margin: 2% 2% 2% 2%;
+        color: $ColorTexto;
+        line-height: 1.5;
+        background-color: $FondoCartelContacto;
+        box-shadow: 0 0 10px $BoxShadow;
+        border-radius: 10px;
+        
+    }

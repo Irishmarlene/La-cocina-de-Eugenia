@@ -1,0 +1,437 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Birthstone&display=swap");
+header, .footer {
+  background-color: #ffdab9;
+  color: #ffffff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1019607843);
+  padding: 15px 5px 0 5px;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+a:hover {
+  font-size: 1.5em;
+  background-color: #F2AB91;
+  border-radius: 30%;
+}
+
+.quieneSomos, .quieneSomos p {
+  font-family: "Montagu Slab", serif;
+  font-size: 1.5rem;
+  text-align: justify;
+  margin: 2% 2% 2% 2%;
+  color: #000000;
+  line-height: 1.5;
+  background-color: #F2AB91;
+}
+
+.quieneSomos p {
+  padding: 5px 5px 5px 5px;
+  border: 2cm 2cm 2cm 2cm;
+  text-align: center;
+}
+
+.nosotros {
+  margin: 2%;
+  padding: 2px 8px;
+}
+
+.contacto {
+  margin: 2%;
+  padding: 0px 8px 25px 8px;
+}
+
+.cardTitle {
+  font-size: 25px;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-style: bold;
+  border: 2.5px solid #9B574E;
+  margin: 35px 35px 35px 35px;
+  background-color: #ffffff;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.cards div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  padding: 10px 10px 10px 10px;
+  margin: 25px 10px 25px 10px;
+}
+
+.cards a {
+  text-decoration: none;
+  color: #9B574E;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.3em;
+  font-weight: bold;
+  text-align: center;
+  padding: 10px 10px 10px 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1019607843);
+  border-radius: 10px;
+  background-color: #ffffff;
+  transition: all 0.3s ease-in-out;
+}
+.cards a:hover {
+  background-color: #9B574E;
+  color: #000000;
+  transform: scale(1.05);
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: justify-content;
+  font-family: "Montagu Slab", serif;
+  text-align: center;
+  font-size: 1em;
+  padding: 10px 0;
+  color: #000000;
+}
+
+footer ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  border: none;
+  align-items: center;
+  justify-content: center;
+  vertical-align: baseline;
+}
+
+footer img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin: 5px 5px 5px 5px;
+}
+
+.nombre h1 {
+  font-family: "Birthstone", cursive;
+  font-style: cursive;
+  font-weight: bold;
+  font-size: 7rem;
+  text-shadow: 1px 1px 2px;
+  padding-top: 2%;
+  margin-bottom: 0%;
+  text-align: center;
+  color: #9B574E;
+}
+
+.nombre h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 3rem;
+  text-align: center;
+  margin-top: 0%;
+  margin-bottom: 0%;
+  color: #000000;
+}
+
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 3rem;
+  text-align: center;
+  margin-top: 5%;
+  margin-bottom: 0%;
+  color: #000000;
+}
+
+.cards p {
+  font-family: "Montagu Slab", serif;
+  font-size: 1.5rem;
+  text-align: justify;
+  margin: 2% 2% 2% 2%;
+  color: #000000;
+  padding: 0 10%;
+  line-height: 1.5;
+  background-color: #F2AB91;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1019607843);
+  border-radius: 10px;
+  padding: 2%;
+}
+
+.quienesSomos {
+  font-family: "Montagu Slab", serif;
+  font-size: 1.5rem;
+  text-align: justify;
+  margin: 2% 2% 2% 2%;
+  color: #000000;
+  line-height: 1.5;
+  background-color: #F2AB91;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1019607843);
+  border-radius: 10px;
+}
+
+@media (max-width: 768px) {
+  header, .footer {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+  }
+  .logo img {
+    width: 80px;
+    height: 60px;
+  }
+  ul {
+    display: flex;
+    flex-direction: column;
+  }
+  .cardTitle,
+  .cards,
+  .quienesSomos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-self: center;
+    margin: 10px 10px 10px 10px;
+    padding: 5px 5px 5px 5px;
+  }
+  .cards img {
+    width: 80%;
+    height: 80%;
+    margin: 5px 5px 5px 5px;
+  }
+  .bannerTorta {
+    flex-direction: column;
+    padding: 5%;
+    gap: 15px;
+  }
+  .footer ul {
+    display: flex;
+    flex-direction: column;
+  }
+}
+.banner {
+  width: 100%;
+  height: 20cm;
+  display: block;
+}
+
+.boxesTitle p {
+  font-family: "Montagu Slab", serif;
+  font-size: 1.5rem;
+  text-align: center;
+  margin: 2% 2% 2% 2%;
+  color: #000000;
+}
+
+.boxesGrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, minmax(150px, 1fr));
+  gap: 20px;
+  grid-template-areas: "1 2" "3 4" "5 5";
+  justify-items: center;
+  align-items: center;
+  justify-content: space-between;
+  align-content: space-between;
+  background-color: #9B574E;
+  padding: 30px 30px 30px 30px;
+  margin: 10px 10px 10px 10px;
+}
+@media (max-width: 768px) {
+  .boxesGrid {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: "box1" "box2" "box3" "box4" "box5";
+  }
+}
+
+.box1, .box5, .box4, .box3, .box2 {
+  grid-area: 1;
+  width: 100%;
+  height: 80%;
+  margin: 5px;
+  padding: 5px;
+}
+
+.box2 {
+  grid-area: 2;
+}
+
+.box3 {
+  grid-area: 3;
+}
+
+.box4 {
+  grid-area: 4;
+}
+
+.box5 {
+  grid-area: 5;
+}
+
+.boxesGrid article {
+  padding: 10px 10px 10px 10px;
+  margin: 2% 2% 2% 2%;
+  line-height: 3;
+  background-color: #ffffff;
+  border: 10px inline #9B574E;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #F2AB91;
+  font-size: 1.5rem;
+  font-weight: bolder;
+  font-style: oblique;
+  font-family: "Montagu Slab", serif;
+  text-align: center;
+  color: #9B574E;
+}
+@media (max-width: 768px) {
+  .boxesGrid article {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: "box1" "box2" "box3" "box4" "box5";
+  }
+}
+
+.bannerTorta {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 2%;
+}
+@media (max-width: 768px) {
+  .bannerTorta {
+    flex-direction: column;
+    padding: 4%;
+    gap: 15px;
+  }
+}
+
+.opcionesTortas {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 10px 10px 10px 10px;
+  background-color: #ffffff;
+  border: 10px inline #9B574E;
+  border-radius: 10px;
+  box-shadow: 10px #ffffff;
+  margin-bottom: 15px;
+}
+@media (max-width: 768px) {
+  .opcionesTortas {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    gap: 20px;
+  }
+}
+
+.opcionesTortas img {
+  width: 80%;
+  height: 90%;
+  border: 5px outset #9B574E;
+  justify-content: space-around;
+  align-items: center;
+  margin: 5% 5% 5% 5%;
+}
+
+.opcionesTortas p {
+  font-size: 1.5rem;
+  font-family: "Montagu Slab", serif;
+  color: #9B574E;
+  text-align: center;
+  margin: 5px 5px 5px 5px;
+}
+
+.opcionesTortas article {
+  background-color: #ffffff;
+}
+
+.nombre img {
+  display: block;
+  margin: 10px auto;
+  width: 200px;
+  height: 200px;
+  border-radius: 50px;
+}
+
+.textoQuienesSomos, .contacto {
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px 20px 20px 20px;
+  margin: 25px 30px 40px 30px;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  box-shadow: 0 0 10px #F2AB91;
+}
+.textoQuienesSomos p::first-letter, .contacto p::first-letter {
+  font-size: 2em;
+  color: #9B574E;
+  font-weight: bold;
+}
+
+.imagenLocal {
+  display: block;
+  margin: 10px auto;
+  width: 500px;
+  height: 500px;
+  border-radius: 10px;
+}
+
+.quienesSomos h2 {
+  font-family: "Montserrat", sans-serif;
+  padding: 20px 0 0 0;
+}
+
+.contacto {
+  margin: 25px 30px 40px 30px;
+  padding: 20px 20px 20px 20px;
+  background-color: #F2AB91;
+}
+
+.redes ul {
+  display: flex;
+  flex-direction: column;
+  list-style-type: disc;
+  list-style: none;
+  color: #000000;
+  text-decoration: none;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 20px;
+  margin: 20px;
+}
+
+.redes a {
+  text-decoration: none;
+  color: #ffffff;
+  font-family: "Montagu Slab", serif;
+  font-size: 1em;
+  font-weight: bold;
+  text-align: center;
+  padding: 10px 10px 10px 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1019607843);
+  border-radius: 25px;
+  background-color: #9B574E;
+  transition: all 0.3s ease-in-out;
+}
+.redes a:hover {
+  background-color: #9B574E;
+  color: #000000;
+  transform: scale(1.05);
+}
+
+.logoContacto {
+  display: block;
+  margin: 10px auto;
+  width: 250px;
+  height: 250px;
+  border-radius: 10px;
+}
+
+/*# sourceMappingURL=style.css.map */

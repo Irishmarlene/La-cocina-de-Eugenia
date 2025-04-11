@@ -1,0 +1,18 @@
+//variables colores
+$ColorPinkHeader: #ffdab9;
+$ColorFondo: #ffffff;
+$BoxShadow: #0000001a;
+$ColorFirstLetter: #9B574E;
+$ColorTexto: #000000;
+$FondoCartelContacto:#F2AB91;
+//variables fuentes
+$FuenteH1: "Birthstone", cursive;
+$FuenteH2:"Montserrat", sans-serif;
+$FuenteGeneral: "Montagu Slab", serif;
+
+@mixin grid ($columna, $fila, $gap){
+    display: grid;
+    grid-template-columns: repeat($columna, 1fr);
+    grid-template-rows: repeat($fila, minmax(150px, 1fr));
+    gap: $gap;    
+}
